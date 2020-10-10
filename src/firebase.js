@@ -9,10 +9,11 @@
  *     )   (  //
  *    (__ __)//
  */
+
 import firebase from "firebase";
 import 'firebase/firestore';
 
-const firebaseConfig = firebase.initialize({
+const firebaseConfig = firebase.initializeApp({
 	apiKey: "AIzaSyBN7y9gxhv54OPjOnI8FOSscB3oaRkG6nE",
 	authDomain: "react-todo-list-7ce85.firebaseapp.com",
 	databaseURL: "https://react-todo-list-7ce85.firebaseio.com",
