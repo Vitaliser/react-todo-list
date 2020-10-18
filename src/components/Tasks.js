@@ -1,6 +1,6 @@
 /*
  * @Copyright ParanoiA
- * @Created: 10/10/20, 1:17 PM
+ * @Created: 10/18/20, 3:02 PM
  * @Date : 2020.
  * @author : M.ALi Kheiry
  *
@@ -11,8 +11,8 @@
  */
 
 import React from "react";
-import {Checkbox} from "../Checkbox";
-import {useTasks} from "../../hooks";
+import {Checkbox} from "./Checkbox";
+import {useTasks} from "../hooks";
 
 export const Tasks = () => {
 	const {tasks} =useTasks("1");
